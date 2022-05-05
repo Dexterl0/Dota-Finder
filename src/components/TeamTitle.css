@@ -1,0 +1,16 @@
+.team-title {
+    color: rgba(216, 234, 255, 1);
+    background-color: rgba(35, 48, 82, 1);
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 26px;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+    .team-title {
+      border-radius: 0px;
+    }
+  }
